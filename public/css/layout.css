@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #1e272e; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +33,8 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+   background-color: transparent;
+   opacity: 900;
    text-align: center;
    overflow: hidden;
 }
@@ -112,7 +113,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #0762f9; }
+header .scrolldown a:hover { color: #00cec9; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -174,7 +175,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #0be881; }
 
 
 /* ------------------------------------------------------------------ */
@@ -182,7 +183,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #575fcf;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -202,8 +203,8 @@ ul#nav li.current a { color: #fe6928; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 240px;
+   height: 220px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -246,7 +247,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #0762f9;
+   border-bottom: 3px solid #575fcf;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -1003,7 +1004,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #00cec9; }
 
 
 .social .btn:first-child{
@@ -1017,7 +1018,7 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-right: 15px;
 }
 .project-btn{
-   background-color: #1abc9c !important;
+   background-color: #0be881 !important;
 }
 .github-btn{
    background-color: #34495e !important;

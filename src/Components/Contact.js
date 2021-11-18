@@ -111,13 +111,13 @@ class Contact extends Component {
                   {name}
                   <br />
                   {street} <br />
-                  {city}, {state} {zip}
+                  {city}, {state}, {zip}
                   <br />
                   <span>{phone}</span>
                 </p>
               </div>
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +144,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>
